@@ -2,7 +2,7 @@
 
 ItemShowcaseApp is a modern and responsive React application for managing and showcasing a collection of items. Built with **Vite** for fast development and optimized builds, it allows users to **add**, **view**, and **delete** items, complete with image galleries and a sleek UI.
 
--Live on: [text](https://item-showcase-app-five.vercel.app/)
+-Live on: [Live On](https://item-showcase-app-five.vercel.app/)
 
 ## ✨ Features
 
