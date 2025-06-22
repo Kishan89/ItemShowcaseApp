@@ -1,0 +1,138 @@
+.container {
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.headerTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  background: linear-gradient(to right, #059669, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.success {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: linear-gradient(to right, #22c55e, #10b981);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.formBox {
+  background: linear-gradient(to bottom right, white, #f9fafb);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.label {
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: all 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: #059669;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.previewImage {
+  margin-top: 1rem;
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 2px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imageGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  margin-top: 1rem;
+}
+
+.imageThumb {
+  position: relative;
+}
+
+.imageThumb img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  border: 2px solid white;
+  transition: transform 0.3s;
+}
+
+.imageThumb:hover img {
+  transform: scale(1.05);
+}
+
+.removeBtn {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.submitBtn {
+  width: 100%;
+  background: linear-gradient(to right, #059669, #3b82f6, #8b5cf6);
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.submitBtn:hover {
+  transform: scale(1.05);
+}
